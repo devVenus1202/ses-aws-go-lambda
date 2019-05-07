@@ -1,0 +1,126 @@
+[
+  {
+    "eventVersion": "1.05",
+    "userIdentity": {
+      "type": "Root",
+      "principalId": "443504682749",
+      "arn": "arn:aws:iam::443504682749:root",
+      "accountId": "443504682749",
+      "accessKeyId": "ASIAWOQXQM363HWVBZQR",
+      "sessionContext": {
+        "attributes": {
+          "mfaAuthenticated": "true",
+          "creationDate": "2019-04-25T11:45:00Z"
+        }
+      }
+    },
+    "eventTime": "2019-04-25T11:55:32Z",
+    "eventSource": "monitoring.amazonaws.com",
+    "eventName": "DescribeAlarms",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "173.66.5.253",
+    "userAgent": "AWS CloudWatch Console",
+    "errorCode": "ValidationException",
+    "errorMessage": "1 validation error detected: Value 'INVALID_FOR_SUMMARY' at 'stateValue' failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+    "requestParameters": {
+      "stateValue": "INVALID_FOR_SUMMARY"
+    },
+    "responseElements": null,
+    "requestID": "071db4dd-6751-11e9-b48b-c5c98a4e5eca",
+    "eventID": "678d26f7-7003-4665-bf66-d2c7192431b6",
+    "eventType": "AwsApiCall",
+    "recipientAccountId": "443504682749"
+  },{
+    "eventVersion": "1.05",
+    "userIdentity": {
+      "type": "Root",
+      "principalId": "443504682749",
+      "arn": "arn:aws:iam::443504682749:root",
+      "accountId": "443504682749",
+      "accessKeyId": "ASIAWOQXQM363HWVBZQR",
+      "sessionContext": {
+        "attributes": {
+          "mfaAuthenticated": "true",
+          "creationDate": "2019-04-25T11:45:00Z"
+        }
+      }
+    },
+    "eventTime": "2019-04-25T11:55:32Z",
+    "eventSource": "logs.amazonaws.com",
+    "eventName": "DescribeMetricFilters",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "173.66.5.253",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36",
+    "requestParameters": {
+      "limit": 50
+    },
+    "responseElements": null,
+    "requestID": "07a2004d-6751-11e9-b310-61a76c2a8387",
+    "eventID": "e832996c-254d-49de-ab93-bd466b4d627f",
+    "eventType": "AwsApiCall",
+    "apiVersion": "20140328",
+    "recipientAccountId": "443504682749"
+  }, {
+    "eventVersion": "1.05",
+    "userIdentity": {
+      "type": "Root",
+      "principalId": "443504682749",
+      "arn": "arn:aws:iam::443504682749:root",
+      "accountId": "443504682749",
+      "accessKeyId": "ASIAWOQXQM363HWVBZQR",
+      "sessionContext": {
+        "attributes": {
+          "mfaAuthenticated": "true",
+          "creationDate": "2019-04-25T11:45:00Z"
+        }
+      }
+    },
+    "eventTime": "2019-04-25T11:56:32Z",
+    "eventSource": "monitoring.amazonaws.com",
+    "eventName": "DescribeAlarms",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "173.66.5.253",
+    "userAgent": "AWS CloudWatch Console",
+    "errorCode": "ValidationException",
+    "errorMessage": "1 validation error detected: Value 'INVALID_FOR_SUMMARY' at 'stateValue' failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+    "requestParameters": {
+      "stateValue": "INVALID_FOR_SUMMARY"
+    },
+    "responseElements": null,
+    "requestID": "2adfe9ea-6751-11e9-a723-a3829997ccea",
+    "eventID": "060dd5e5-ec9e-47f3-b8c6-6815a21ad454",
+    "eventType": "AwsApiCall",
+    "recipientAccountId": "443504682749"
+  }{
+    "eventVersion": "1.05",
+    "userIdentity": {
+      "type": "Root",
+      "principalId": "443504682749",
+      "arn": "arn:aws:iam::443504682749:root",
+      "accountId": "443504682749",
+      "accessKeyId": "ASIAWOQXQM363HWVBZQR",
+      "sessionContext": {
+        "attributes": {
+          "mfaAuthenticated": "true",
+          "creationDate": "2019-04-25T11:45:00Z"
+        }
+      }
+    },
+    "eventTime": "2019-04-25T11:57:32Z",
+    "eventSource": "monitoring.amazonaws.com",
+    "eventName": "DescribeAlarms",
+    "awsRegion": "us-east-1",
+    "sourceIPAddress": "173.66.5.253",
+    "userAgent": "AWS CloudWatch Console",
+    "errorCode": "ValidationException",
+    "errorMessage": "1 validation error detected: Value 'INVALID_FOR_SUMMARY' at 'stateValue' failed to satisfy constraint: Member must satisfy enum value set: [INSUFFICIENT_DATA, ALARM, OK]",
+    "requestParameters": {
+      "stateValue": "INVALID_FOR_SUMMARY"
+    },
+    "responseElements": null,
+    "requestID": "4ea21e9d-6751-11e9-a008-971cc0d91856",
+    "eventID": "a661b3b9-2dbc-4be6-a123-0212d9eac297",
+    "eventType": "AwsApiCall",
+    "recipientAccountId": "443504682749"
+  }
+]
