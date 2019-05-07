@@ -3,7 +3,6 @@ package main
 import (
 	"context"
 	"encoding/json"
-	"errors"
 	"fmt"
 	"os"
 
@@ -12,11 +11,6 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ses"
-)
-
-var (
-	EmailNotProvided   = errors.New("no email provided")
-	MessageNotProvided = errors.New("no message provided")
 )
 
 const (
